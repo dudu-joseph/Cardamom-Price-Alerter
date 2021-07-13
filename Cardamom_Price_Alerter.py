@@ -40,7 +40,7 @@ print(today)
 
 url = "http://www.indianspices.com/marketing/price/domestic/daily-price-small.html"
 response = requests.get(url)
-soup = BeautifulSoup(response.text, 'html')         #lxml
+soup = BeautifulSoup(response.text, 'html')                                                                         #Use 'lxml' when running on the local machine and 'html' when running on heroku 
 table_data =  soup.find('table', width = "100%")
 print(table_data)
 
