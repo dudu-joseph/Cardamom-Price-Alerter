@@ -1,1 +1,1 @@
-worker: python Cardamom_Price_Alerter.py 
+worker: python Cardamom_Price_Alerter.py
