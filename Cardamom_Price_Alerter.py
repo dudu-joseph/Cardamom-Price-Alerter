@@ -106,7 +106,7 @@ def task():
     send_message(token, chat_id, message_text, average_price_message_text, max_price_message_text)
 
 #schedule.every().day.at("16:00").do(task)
-schedule.every(3).minutes.do(run)
+schedule.every(3).minutes.do(task)
 
 
 while True:
