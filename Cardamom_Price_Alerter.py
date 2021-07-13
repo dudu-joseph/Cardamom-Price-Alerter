@@ -40,7 +40,7 @@ print(today)
 
 url = "http://www.indianspices.com/marketing/price/domestic/daily-price-small.html"
 response = requests.get(url)
-soup = BeautifulSoup(response.text, 'lxml')
+soup = BeautifulSoup(response.text, 'html')         #lxml
 table_data =  soup.find('table', width = "100%")
 print(table_data)
 
