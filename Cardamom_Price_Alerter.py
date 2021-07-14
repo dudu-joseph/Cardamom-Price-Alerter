@@ -16,7 +16,7 @@ Max_Price = []
 Avg_Price = []
 number_of_auctioners = 0
 token = "1806166019:AAHnBPMcXxXtm4sEdxNkFbHr6H8l7C50BgQ"
-chat_id = "1815946443"
+chat_id = "-568093680"                                                                        #"1815946443"
 
 def send_message(token, chat_id, message_text, average_price_message_text, max_price_message_text):
     telegram_url = 'https://api.telegram.org/bot{}/sendMessage?chat_id={}&text={}'.format(token, chat_id, message_text)
