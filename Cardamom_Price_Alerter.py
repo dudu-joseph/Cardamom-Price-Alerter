@@ -4,6 +4,7 @@ import requests
 from bs4 import BeautifulSoup  
 import pandas as pd 
 from datetime import date
+import sys
 
 
 Auctioneer_name = []
@@ -99,5 +100,8 @@ for price in Max_Price:
 print(message_text)
 print(average_price_message_text)
 print(max_price_message_text)
+print("Hi")
 
 send_message(token, chat_id, message_text, average_price_message_text, max_price_message_text)
+
+print("End of Prog")
