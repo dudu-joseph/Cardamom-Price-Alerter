@@ -20,11 +20,11 @@ chat_id = "-568093680"                                                          
 test_flag = 0
 message_text = ""
 
-
-if sys.argv[1] == "--test":
-    test_flag = 1
-    print("\nHave entered Test Mode !")
-    sys.stdin.read(1)
+if len(sys.argv) > 1:
+    if sys.argv[1] == "--test":
+        test_flag = 1
+        print("\nHave entered Test Mode !")
+        sys.stdin.read(1)
 
 def replace_text(original_text):
     global message_text
