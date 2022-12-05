@@ -6,7 +6,7 @@ import pandas as pd
 from datetime import date
 import sys
 
-
+#Trial Change 01
 Auctioneer_name = []
 Number_of_lots = []
 Total_quantity = []
